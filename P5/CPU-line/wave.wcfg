@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ISE_code/P5/CPU_text_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_text" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="43" />
+   <wave_markers>
+      <marker time="45512000" label="" />
+      <marker time="136600000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/CPU_text/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/F_IFU/PC_" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/F_IFU/PCsrc_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">PCsrc_D</obj_property>
+      <obj_property name="ObjectShortName">PCsrc_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/F_IFU/Instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/Instr_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/E_ALU/Instr_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/Instr_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/HAZARD/Instr_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/WE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/SD" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">SD</obj_property>
+      <obj_property name="ObjectShortName">SD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/WD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/WData_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WData_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WData_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/WA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/grf[1]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1,31:0]</obj_property>
+      <obj_property name="ObjectShortName">grf[1,31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/E_ALU/Result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/ALUOut_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOut_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOut_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/ALUOut_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOut_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOut_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/WReg_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WReg_W[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WReg_W[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/Jal_W" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Jal_W</obj_property>
+      <obj_property name="ObjectShortName">Jal_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/HAZARD/f_A_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_A_E[2:0]</obj_property>
+      <obj_property name="ObjectShortName">f_A_E[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/HAZARD/f_B_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_B_E[2:0]</obj_property>
+      <obj_property name="ObjectShortName">f_B_E[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/E_ALU/B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/E_ALU/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/f_Rs_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_Rs_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">f_Rs_D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/f_Rt_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">f_Rt_D[2:0]</obj_property>
+      <obj_property name="ObjectShortName">f_Rt_D[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/RD1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/RD2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/E_ALU/RD2_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD2_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/ALUOut_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOut_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOut_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/HAZARD/Rt_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rt_W[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rt_W[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/HAZARD/Rt_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rt_M[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rt_M[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/MtoR_W" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MtoR_W</obj_property>
+      <obj_property name="ObjectShortName">MtoR_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/A" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">A[9:0]</obj_property>
+      <obj_property name="ObjectShortName">A[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">A[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/RD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/PCsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PCsel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PCsel[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/F_IFU/NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/RW_W" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RW_W</obj_property>
+      <obj_property name="ObjectShortName">RW_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/RF_WD" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RF_WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WD[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/RD_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RD_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/M_DM/MtoR_W" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MtoR_W</obj_property>
+      <obj_property name="ObjectShortName">MtoR_W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/bltzal_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bltzal_D</obj_property>
+      <obj_property name="ObjectShortName">bltzal_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_text/uut/D_GRF/blez_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">blez_D</obj_property>
+      <obj_property name="ObjectShortName">blez_D</obj_property>
+   </wvobject>
+</wave_config>
