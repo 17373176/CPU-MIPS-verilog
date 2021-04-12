@@ -7,5 +7,6 @@ P2：MIPS汇编程序编写
 P3：logisim单周期CPU设计  
 P4：verilog单周期CPU设计  
 P5：verilog流水线COU设计  
+mips汇编和logisIM为初阶段作业
 
 - 课上测试即为进阶测试，新增额外指令  
